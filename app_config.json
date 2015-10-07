@@ -1,0 +1,4 @@
+{ 
+	"AWS_REGION": "eu-west-1",
+	"WEATHER_API": "http://www.larrymahony.com/weather/api/current_json.php"
+}
