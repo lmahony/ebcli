@@ -10,6 +10,7 @@
   "author": "Larry Mahony",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "request": "^2.64.0"
   }
 }
