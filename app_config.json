@@ -1,4 +1,9 @@
 {
 "AWS_REGION": "eu-west-1",
-"WEATHER_API": "http://www.larrymahony.com/weather/api/current_json.php"
+"OLD_WEATHER_API": "http://www.larrymahony.com/weather/api/current_json.php",
+"WEATHER" : {
+	"WU_API": "http://api.wunderground.com/api/4d2ea4be623eb727/geolookup/conditions/q/pws:ICOLAOIS2.json",
+	"CACHE_KEY": "weather",
+	"CACHE_TTL": 1800
+ }
 }
