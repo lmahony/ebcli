@@ -1,0 +1,15 @@
+{
+  "name": "ebcli",
+  "version": "1.0.0",
+  "description": "Just testing ElacticBeanstalk CLI with a simple node express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Larry Mahony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
