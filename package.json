@@ -1,7 +1,7 @@
 {
   "name": "ebcli",
-  "version": "1.0.0",
-  "description": "Just testing ElacticBeanstalk CLI with a simple node express app",
+  "version": "1.0.1",
+  "description": "A simple node express app, getting local weather, deployed using ElasticBeanstalk cli",
   "main": "server.js",
   "scripts": {
     "test": "tests/test.js",
