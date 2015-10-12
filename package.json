@@ -4,15 +4,18 @@
   "description": "Just testing ElacticBeanstalk CLI with a simple node express app",
   "main": "server.js",
   "scripts": {
-    "test": "test",
+    "test": "tests/test.js",
     "start": "node server.js"
   },
   "author": "Larry Mahony",
   "license": "ISC",
   "dependencies": {
+    "chai": "^3.3.0",
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
+    "mocha": "^2.3.3",
     "node-cache": "^3.0.0",
-    "request": "^2.64.0"
+    "request": "^2.64.0",
+    "sinon": "^1.17.1"
   }
 }
